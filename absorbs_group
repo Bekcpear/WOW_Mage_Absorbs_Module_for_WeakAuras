@@ -1,0 +1,99 @@
+{
+    ["grow"] = "DOWN",
+    ["controlledChildren"] = {
+        [1] = "屏障厚度(棱光屏障分层)",
+        [2] = "屏障厚度(棱光屏障分层) -上层",
+    },
+    ["xOffset"] = 0,
+    ["yOffset"] = 3.0000305175781,
+    ["anchorPoint"] = "BOTTOM",
+    ["rowSpace"] = 1,
+    ["background"] = "None",
+    ["actions"] = {
+        ["start"] = {
+        },
+        ["init"] = {
+        },
+        ["finish"] = {
+        },
+    },
+    ["triggers"] = {
+        [1] = {
+            ["trigger"] = {
+                ["subeventPrefix"] = "SPELL",
+                ["type"] = "aura2",
+                ["spellIds"] = {
+                },
+                ["subeventSuffix"] = "_CAST_START",
+                ["unit"] = "player",
+                ["names"] = {
+                },
+                ["event"] = "Health",
+                ["debuffType"] = "HELPFUL",
+            },
+            ["untrigger"] = {
+            },
+        },
+    },
+    ["columnSpace"] = 1,
+    ["internalVersion"] = 16,
+    ["selfPoint"] = "TOP",
+    ["align"] = "CENTER",
+    ["stagger"] = 0,
+    ["load"] = {
+        ["use_class"] = false,
+        ["spec"] = {
+            ["multi"] = {
+            },
+        },
+        ["class"] = {
+            ["multi"] = {
+            },
+        },
+        ["size"] = {
+            ["multi"] = {
+            },
+        },
+    },
+    ["animate"] = false,
+    ["scale"] = 1,
+    ["border"] = "None",
+    ["anchorFrameFrame"] = "SUFUnitplayer",
+    ["regionType"] = "dynamicgroup",
+    ["backgroundInset"] = 0,
+    ["sort"] = "none",
+    ["radius"] = 200,
+    ["gridType"] = "RD",
+    ["constantFactor"] = "RADIUS",
+    ["space"] = 2,
+    ["borderOffset"] = 16,
+    ["arcLength"] = 360,
+    ["useLimit"] = false,
+    ["id"] = "屏障组",
+    ["uid"] = "74VMpKq)ka0",
+    ["frameStrata"] = 1,
+    ["anchorFrameType"] = "SELECTFRAME",
+    ["authorOptions"] = {
+    },
+    ["config"] = {
+    },
+    ["gridWidth"] = 5,
+    ["limit"] = 5,
+    ["conditions"] = {
+    },
+    ["rotation"] = 0,
+    ["animation"] = {
+        ["start"] = {
+            ["type"] = "none",
+            ["duration_type"] = "seconds",
+        },
+        ["main"] = {
+            ["type"] = "none",
+            ["duration_type"] = "seconds",
+        },
+        ["finish"] = {
+            ["type"] = "none",
+            ["duration_type"] = "seconds",
+        },
+    },
+}
